@@ -7,7 +7,7 @@ Question: Who are the employees on probation?
 
 
 SELECT
-    employee_id,
+   employee_id,
     CASE
         WHEN employee_rating = 1 THEN 'Six Months'
         WHEN employee_rating = 2 THEN 'Three Months'
