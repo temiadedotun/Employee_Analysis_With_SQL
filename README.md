@@ -1,5 +1,5 @@
 # Introduction
-This project is designed to analyze the employee data of an organization over time. It focuses on three Human Resource insights 🔍: Movement patterns 🔄, Compensation review 💰, and Performance assessment. 🙍
+This project was designed to analyze the employee data of an organization over time. It focuses on three Human Resource insights🔍: Movement patterns🔄, Compensation review💰, and Performance assessment🙍. 
 
 🔍 You can check out the SQL queries here: [sql files folder](/sql%20files/)
 # Background
@@ -50,7 +50,7 @@ WHERE
 ```
 
 # What I learned
-Working on this project, I got to really improve my SQL reasoning and skills. I learned about casting data types and joining tables by listing them in FROM. Also, using CTEs and Subqueries made it possible for me to really dig deeper into into insights. I also got to level up my real-world puzzle-solving skills, turning questions into actionable, insightful SQL queries.
+Working on this project, I got to really improve my SQL reasoning and skills. I learned about casting data types and joining tables by listing them in FROM. Also, using CTEs and Subqueries made it possible for me to really dig deeper into insights. I also got to level up my real-world puzzle-solving skills, turning questions into actionable, insightful SQL queries.
 # Conclusions
 ### Insights
 From the analysis, these were the insights:
@@ -60,9 +60,9 @@ From the analysis, these were the insights:
 ![Turnover Rate](/assets/Turnover%20Rate%20&%20Year%20Over%20Year.png)
 *Line chart visualizing the employee turnover rate and year-over-year change between 2019 & 2023. Excel was used to create this chart.*
 
-2. Out of 973 employees assessed, only 20 (approximately 2.1% of the workforce) met all eligibility criteria for a salary increment ✅, indicating a highly selective compensation adjustment framework.
+2. Out of 973 employees assessed, only 20 (approximately 2.1% of the workforce) met all eligibility criteria for a salary increment ✅. This indicates that a very large percent of the workforce have either not spent long at the organization, or are more in entry or mid-level positions.
 
 3. Three hundred and eighty-three employees  (approximately 39.4% of the workforce) failed ❌ to meet the requirement for exceeding a probation. Two hundred and forty-four are on a three-month probation period, while one hundred and thirty-nine are on a six-month probation period.
 
 ### Closing Thoughts
-A substantial proportion of the workforce remains within the probationary stage after the assessment period. This workforce composition set a constraint for the eligibility for salary increments, as observed from the low proportion of employees who qualify for compensation adjustment. When viewed alongside the consistently rising turnover trend, particularly the sharp year-over-year increase observed in 2022, these findings suggest a potential retention challenge associated with limited progression and reward opportunities for a largely early-tenure employee population
+A substantial proportion of the workforce remains within the probationary stage after the assessment period. This workforce composition set a constraint for the eligibility for salary increments, as observed from the low proportion of employees who qualify for compensation adjustment. When viewed alongside the consistently rising turnover trend, particularly the sharp year-over-year increase observed in 2022, these findings suggest a potential retention challenge associated with limited progression and reward opportunities for a largely early-tenure employee population.
