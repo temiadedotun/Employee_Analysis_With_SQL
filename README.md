@@ -10,7 +10,7 @@ Data is from [Kaggle](https://www.kaggle.com/datasets/ravindrasinghrana/employee
 ### Project Objectives
 This project answers the following questions:
 1. What is the employee turnover rate over the years?
-2. Who are the employees that are due for a salary increment?
+2. Who are the employees that are eligible for a salary increment?
 3. Who are the employees that are on probation?
 
 # Tools I Used
@@ -55,8 +55,14 @@ Working on this project, I got to really improve my SQL reasoning and skills. I 
 ### Insights
 From the analysis, these were the insights:
 
-1. The employee turnover rate increased 📈 every year from 2019, starting from a **12.52%** all the way to **37.23%**, with the largest percentage difference happening between 2022 & 2023. This means that as the number of employees increased, the number of employees that left also increased.
+1. The employee turnover rate increased 📈 every year from 2019, starting from a **12.52%** all the way to **37.23%**, with the most dramatic deterioration happening between 2021 & 2022. Early years show moderate increases, while later years show sharp spikes. This suggests growing retention challenges.
 
-2. Twenty employees met every criteria set ✅, and are therefore eligible for a salary increment.
+![Turnover Rate](/assets/Turnover%20Rate%20&%20Year%20Over%20Year.png)
+*Line chart visualizing the employee turnover rate and year-over-year change between 2019 & 2023. Excel was used to create this chart.*
 
-3. Three hundred and eighty-three employees failed ❌ to meet the requirement for exceeding a probation. Two hundred and forty-four are on a three-month probation period, while one hundred and thirty-nine are on a six-month probation period.
+2. Out of 973 employees assessed, only 20 (approximately 2.1% of the workforce) met all eligibility criteria for a salary increment ✅, indicating a highly selective compensation adjustment framework.
+
+3. Three hundred and eighty-three employees  (approximately 39.4% of the workforce) failed ❌ to meet the requirement for exceeding a probation. Two hundred and forty-four are on a three-month probation period, while one hundred and thirty-nine are on a six-month probation period.
+
+### Closing Thoughts
+A substantial proportion of the workforce remains within the probationary stage after the assessment period. This workforce composition set a constraint for the eligibility for salary increments, as observed from the low proportion of employees who qualify for compensation adjustment. When viewed alongside the consistently rising turnover trend, particularly the sharp year-over-year increase observed in 2022, these findings suggest a potential retention challenge associated with limited progression and reward opportunities for a largely early-tenure employee population
