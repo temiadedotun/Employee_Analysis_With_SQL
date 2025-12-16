@@ -29,7 +29,7 @@ To obtain the turnover rate, I divided the number of employees that left in that
 To uncover the employees that are eligible for a salary increment, I **focused** the filtering of the employee id by start date and year of experience. This query highlights employees who have spent a certain duration in the organization. 
 
 ### 3. Employee Probation Status
-To uncover the employees that are on probation, and to determine for how long, I filtered employee id by employee rating, and set two conditions.
+To uncover the employees that are on probation, and to determine for how long, I filtered employee id by employee rating, and set two conditions. Unlike the two earlier approaches, contract employees were included in this.
 ``` sql
 SELECT
    employee_id,
@@ -62,7 +62,7 @@ From the analysis, these were the insights:
 
 2. Out of 973 employees assessed, only 20 (approximately 2.1% of the workforce) met all eligibility criteria for a salary increment ✅. This indicates that a very large percent of the workforce have either not spent long at the organization, or are more in entry or mid-level positions.
 
-3. Three hundred and eighty-three employees  (approximately 39.4% of the workforce) failed ❌ to meet the requirement for exceeding a probation. Two hundred and forty-four are on a three-month probation period, while one hundred and thirty-nine are on a six-month probation period.
+3. Three hundred and eighty-three employees  (26.1% of the workforce [inclusive of contract staff]) failed ❌ to meet the requirement for exceeding a probation. Two hundred and forty-four are on a three-month probation period, while one hundred and thirty-nine are on a six-month probation period.
 
 ### Closing Thoughts
 A substantial proportion of the workforce remains within the probationary stage after the assessment period. This workforce composition set a constraint for the eligibility for salary increments, as observed from the low proportion of employees who qualify for compensation adjustment. When viewed alongside the consistently rising turnover trend, particularly the sharp year-over-year increase observed in 2022, these findings suggest a potential retention challenge associated with limited progression and reward opportunities for a largely early-tenure employee population.
