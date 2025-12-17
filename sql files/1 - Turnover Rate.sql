@@ -5,6 +5,12 @@ Question: What is the annual turnover rate over the years?
     - This can be found by adding the number of employees at
         the start and end of the year, and dividing by 2
 - Why? This helps to know how effectively a company retains its employees
+
+- Calculating the turnover rate starts from the year 2019, because it is the first
+year that has a count for the employees at the start of the year. Even though 2018
+is the oldest year in the start and exit date columns, there were no employees until
+Q3, which, if the turnover rate were decided to be calculated, would give an incorrect
+figure. Therefore, we can consider 2018 the establishment year.
 */
 
 
